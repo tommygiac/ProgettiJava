@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-	    studente Studente = new studente("KLCFLR01P11Z104G", "Количков",
-                "Флоро", "3Z");
-	    Studente.aggiungiVoto(6F);
+	    studente Studente = new studente("SD7FSZ7D8G7R8D", "Simone",
+                "Giuseppe", "4AIA");
+	    Studente.aggiungiVoto(2F);
         Studente.stampa();
         Studente.esito();
 

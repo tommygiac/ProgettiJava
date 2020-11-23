@@ -4,7 +4,7 @@ package com.school_studente_v2;
 // mentre il voto deve essere posto a zero;
 //DONE creare metodi get, set e stampa;
 //DONE creare il metodo aggiungivoto, per inserire il voto all'alunno;
-//TODO creare il metodo modificaclasse, per modificare la classe dell'alunno con la classe nuova inserita da tastiera;
+//DONE creare il metodo modificaclasse, per modificare la classe dell'alunno con la classe nuova inserita da tastiera;
 //DONE creare il metodo esito, per visualizzare se alunno è promosso(se voto >= a 6), respinto( se voto<di 6);
 
 public class studente
@@ -80,26 +80,16 @@ public class studente
 
     public void aggiungiVoto(float inputVoto) {
         voto = inputVoto;
-        if (inputVoto > 10 || inputVoto < 0) {
-                throw new IllegalStateException("[X] INPUT ERROR: Il voto deve essere compreso tra 0 e 10");
-            }
         }
     public void esito() {
         if (voto >= 5.6) {
-            System.out.println("\n " + getNome() + " e' promosso");
+            System.out.println("\n Lo studente e' promosso");
         }
         else {
-            System.out.println("\n" + getNome() + " e' bocciato. Unlucky");
+            System.out.println("\n Lo studente  e' bocciato.");
         }
     }
 
-    // public void modificaClasse(String inputCodiceAlunno, String  inputCognome, String inputNome, String inputClasse) {
-        // setCodiceAlunno(inputCodiceAlunno);
-        // setNome(inputCognome);
-        // setCognome(inputNome);
-        // setClasse(inputClasse);
-    // }
-    // Non funge
 
     public void modificaClasse_CodiceAlunno (String inputCodiceAlunno) {
         setCodiceAlunno(inputCodiceAlunno);
