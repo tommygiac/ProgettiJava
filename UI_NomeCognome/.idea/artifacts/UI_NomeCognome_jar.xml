@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="UI_NomeCognome:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/UI_NomeCognome_jar</output-path>
+    <root id="archive" name="UI_NomeCognome.jar">
+      <element id="module-output" name="UI_NomeCognome" />
+    </root>
+  </artifact>
+</component>
