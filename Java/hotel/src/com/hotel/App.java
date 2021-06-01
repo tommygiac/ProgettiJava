@@ -47,4 +47,36 @@ public class App {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
     }
+
+    public JButton getButton2() {
+        return button2;
+    }
+
+    public void setButton2(JButton button2) {
+        this.button2 = button2;
+    }
+
+    public JButton getButton3() {
+        return button3;
+    }
+
+    public void setButton3(JButton button3) {
+        this.button3 = button3;
+    }
+
+    public JButton getButton4() {
+        return button4;
+    }
+
+    public void setButton4(JButton button4) {
+        this.button4 = button4;
+    }
+
+    public JLabel getFoto() {
+        return foto;
+    }
+
+    public void setFoto(JLabel foto) {
+        this.foto = foto;
+    }
 }
